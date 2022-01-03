@@ -1,0 +1,16 @@
+{
+	"font_face": "Iosevka Light",
+	"font_size": 12,
+	"font_options": [ "no_calt"],
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"auto_match_enabled": false,
+	"draw_white_space": [ "all_tabs", "selection", "trailing"],
+	"auto_complete_commit_on_tab": true,
+	"remember_workspace": false,
+	"highlight_line": true,
+	"color_scheme": "Packages/gruvbox/gruvbox (Light) (Soft).sublime-color-scheme",
+	"theme": "gruvbox.sublime-theme",
+}

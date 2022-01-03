@@ -1,0 +1,40 @@
+[bar/top]
+font-0 = "Terminus (TTF):size=12;2"
+background = #CC000000
+wm-restack = bspwm
+
+modules-left = workspaces
+modules-center = clock
+modules-right = volume
+
+tray-position = right
+; tray-padding = 4
+
+border-bottom-size = 1
+border-color = #faec80
+
+[module/workspaces]
+type = internal/bspwm
+
+label-focused  = "[+]"
+label-occupied = " + "
+label-urgent   = " + "
+label-empty    = " - "
+
+label-focused-foreground = #faec80
+label-occupied-foreground = #faec80
+
+[module/clock]
+type = internal/date
+
+time = "%H:%M"
+date-alt = "%A - %d.%m"
+label = "%time%%date%"
+
+[module/volume]
+type = internal/pulseaudio
+
+interval = 1
+
+label-volume-foreground = #97ff85
+label-muted-foreground = #ff8960
